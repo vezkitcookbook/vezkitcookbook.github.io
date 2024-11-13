@@ -409,7 +409,6 @@ body {
     color: #fff;
 }
 .portfolio {
-    width: 100%;
     min-height: 680px;
     padding-top: 50px;
     text-align: center;
@@ -462,9 +461,6 @@ body {
     width: 180px;
     height: 180px;
     margin: 0 30px 35px;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    overflow: hidden;
 }
 .portfolio__item.is-hidden {
     display: none;
@@ -482,9 +478,7 @@ body {
     top: 0;
     padding-top: 35px;
     background-color: #1bbc9b;
-    background-color: rgba(27, 188, 155, 0.8);
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    background-color: rgba(27, 188, 155, 0.8); 
     color: #fff;
     opacity: 0;
     -webkit-transition: all 0.5s;
