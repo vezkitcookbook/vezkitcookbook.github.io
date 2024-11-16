@@ -1,0 +1,87 @@
+/* LANDING PAGE --------------------------------------------------------------*/
+
+.landingbg {
+    height:100%;
+    width:100%;
+    background-image: url(../images/bg/landscape-a.png);
+    background-size:110rem;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.home_title {
+    font-family:"Goudy Bookletter 1911", sans-serif;
+    font-size:5rem;
+    color:white;
+    text-align:center;
+    text-shadow: 2px 2px 2px black, 0 0 25px magenta, 0 0 5px violet;
+}
+
+.home_subtitle {
+    font-family:"GFS Neohellenic", sans-serif;
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+    text-shadow: 2px 2px 1px black, 0 0 25px magenta, 0 0 10px violet;
+
+}
+
+.header {
+    max-width:50em;
+    margin:auto;
+    margin-top:10em;
+    margin-bottom:10em;
+}
+
+#nav,
+.navbuttons {
+    margin:auto;
+    text-align:center;
+}
+
+.nav ul {
+    margin-top:10em;
+    padding-left:0;
+}
+
+.navbuttons .btn {
+    border-radius:0;
+    font-family:"GFS Neohellenic", sans-serif;
+    font-size:2em;
+    border:dotted 1px white;
+    margin:.5em;
+    background-color:#C34196;
+}
+
+.navbuttons .btn:hover {
+    background-color:#8a1f64;
+    border:solid 1px #8a1f64;
+}
+
+/* RECIPES -------------------------------------------------------------------*/
+
+.page_header {
+    margin-top:2em;
+    margin-bottom:5em;
+}
+
+#recipe_icons {
+    margin:auto;
+    text-align:center;
+    max-width:60em;
+}
+
+#recipe_icons .row {
+    padding-left:0;
+    margin:auto;
+    text-align:center;
+}
+
+#recipe_icons button {
+    background-color:rgb(255, 255, 255, .9);
+    margin-bottom:1em;
+}
+
+#recipe_icons img {
+    max-width:10em;
+}
