@@ -60,28 +60,56 @@
 
 /* RECIPES -------------------------------------------------------------------*/
 
+.landingbglong {
+    height:100%;
+    width:100%;
+    background-image: url(../images/bg/landscape-a.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
 .page_header {
     margin-top:2em;
     margin-bottom:5em;
 }
 
-#recipe_icons {
+.icons {
+    width:100%;
+    padding:5em;
+    background-color:rgb(70, 141, 139, .95);
+}
+
+.iconholder {
     margin:auto;
     text-align:center;
     max-width:60em;
+    color:white;
 }
 
-#recipe_icons .row {
+.icons .row {
     padding-left:0;
     margin:auto;
     text-align:center;
 }
 
-#recipe_icons button {
-    background-color:rgb(255, 255, 255, .9);
+.icons button {
+    background-color:rgb(255, 255, 255, 0);
     margin-bottom:1em;
 }
 
-#recipe_icons img {
+.icons img {
     max-width:10em;
+}
+
+/* CREDITS ------------------------------------------------------------------ */
+
+#noharm {
+    position:relative;
+    bottom: 0;
+    max-width:20em!important;
+}
+
+#credits_list {
+    padding-bottom:0;
 }
