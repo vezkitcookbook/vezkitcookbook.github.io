@@ -148,6 +148,38 @@ html,body {
 }
 
 /* CREDITS ------------------------------------------------------------------ */
+#creditsimg {
+    max-width: 100%;
+}
+
+.credits-container {
+    max-width: 50em !important;
+}
+
+.credits-container a {
+    color: #0a2d55;
+}
+
+.credits-container a:hover {
+    color: #061d38;
+}
+
+.credits-container .row img {
+    width: 7em;
+    border-radius: 7em;
+}
+
+.credits-container p {
+    font-weight: 800;
+}
+
+.credits-container h2 {
+    font-family: "VT323";
+}
+
+.credits-container .col-sm {
+    margin-bottom: 3em !important;
+}
 
 #noharm {
     position:relative;
