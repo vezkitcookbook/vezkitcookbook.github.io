@@ -64,6 +64,22 @@ html,body {
     border:solid 1px #8a1f64;
 }
 
+/* NAVBAR ------------------------------------------------------------------- */
+
+.navbar {
+    background-color:#8a1f64;
+    color:white;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.navbar a {
+    color:white;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
 /* RECIPES -------------------------------------------------------------------*/
 
 .landingbglong {
@@ -79,7 +95,7 @@ html,body {
 
 .page_header {
     margin-top:2em;
-    margin-bottom:5em;
+    margin-bottom:2em;
 }
 
 .icons {
