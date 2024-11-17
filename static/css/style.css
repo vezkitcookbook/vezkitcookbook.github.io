@@ -76,7 +76,8 @@
 
 .icons {
     width:100%;
-    padding:5em;
+    padding-top:5em;
+    padding-bottom:5em;
     background-color:rgb(70, 141, 139, .95);
 }
 
