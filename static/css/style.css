@@ -16,7 +16,7 @@ html,body {
 }
 
 .home_title {
-    font-family:"Goudy Bookletter 1911", sans-serif;
+    font-family:"Amarante", sans-serif;
     font-size:5rem;
     color:white;
     text-align:center;
@@ -52,7 +52,7 @@ html,body {
 
 .navbuttons .btn {
     border-radius:0;
-    font-family:"GFS Neohellenic", sans-serif;
+    font-family:"Goudy Bookletter 1911", sans-serif;
     font-size:2em;
     border:dotted 1px white;
     margin:.5em;
@@ -69,7 +69,7 @@ html,body {
 .navbar {
     background-color:#8a1f64;
     color:white;
-    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-family: "Amarante", sans-serif;
 }
 
 .navbar a {
@@ -102,8 +102,12 @@ html,body {
     width:100%;
     padding-top:5em;
     padding-bottom:5em;
-    background-color:rgb(224,201,166, .95);
-    font-family: "Goudy Bookletter 1911", sans-serif;
+    background-color:rgb(224,201,166, 1);
+    font-family: "Amarante", sans-serif;
+}
+
+.modal {
+    font-family: "Amarante", sans-serif;
 }
 
 .iconholder {
@@ -128,7 +132,7 @@ html,body {
     max-width:10em;
 }
 
-.modal-dialog {
+.recipes .modal-dialog {
     max-width: 100%!important;
 }
 
@@ -154,4 +158,5 @@ html,body {
 #credits_list {
     padding-bottom:0;
     background-color:rgb(224,201,166, 1);
+    font-family: "Goudy Bookletter 1911", sans-serif;
 }
